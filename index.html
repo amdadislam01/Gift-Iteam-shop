@@ -366,5 +366,27 @@
         </div>
     </div>
 
+    <!-- Order Confirmation Modal -->
+    <div id="confirmation-modal"
+        class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div class="bg-white rounded-lg shadow-xl w-full max-w-md text-center">
+            <div class="p-6">
+                <div class="text-5xl text-primary mb-4">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-dark mb-4">Order Placed Successfully!</h2>
+                <p class="text-gray-600 mb-6">Thank you for your purchase. Your order has been received.</p>
+                <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                    <p class="text-gray-700">Order ID: <span id="order-id" class="font-bold">GH-2023-456789</span></p>
+                    <p class="text-gray-700">Total: <span id="order-total" class="font-bold">৳0</span></p>
+                </div>
+                <button id="close-confirmation"
+                    class="w-full bg-primary text-white py-3 rounded-full font-bold hover:bg-red-500 transition">
+                    Continue Shopping
+                </button>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
