@@ -1,4 +1,4 @@
-#  Giftly‑Style Landing Page
+#  Gift Item Shop
 
 A modern and responsive **gift-oriented landing page**, inspired by platforms like Giftly, designed using **HTML**, **Tailwind CSS**, and **JavaScript**. Perfect for showcasing gifting options, promotions, and a seamless user interface.
 
