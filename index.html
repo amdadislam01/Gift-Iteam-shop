@@ -78,6 +78,64 @@
     </style>
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <i class="fas fa-gift text-3xl text-primary mr-2"></i>
+                <span class="text-2xl font-bold text-dark">Giftly</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="text-dark hover:text-primary font-medium">Home</a>
+                <a href="#" class="text-dark hover:text-primary font-medium">Shop</a>
+                <a href="#" class="text-dark hover:text-primary font-medium">About</a>
+                <a href="#" class="text-dark hover:text-primary font-medium">Contact</a>
+            </nav>
+
+            <!-- Icons -->
+            <div class="flex items-center space-x-6">
+                <div class="relative">
+                    <button id="cart-button" class="relative">
+                        <i class="fas fa-shopping-cart text-2xl text-dark hover:text-primary cursor-pointer"></i>
+                        <span id="cart-count"
+                            class="absolute -top-2 -right-2 bg-primary text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
+                    </button>
+                </div>
+                <div class="relative">
+                    <button id="user-button" class="relative">
+                        <a href="#signup-modal"><i
+                                class="fas fa-user text-2xl text-dark hover:text-primary cursor-pointer"></i></a>
+                    </button>
+                    <div id="profile-dropdown"
+                        class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50">
+                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">My Profile</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Order History</a>
+                        <a href="#" id="logout-button"
+                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Logout</a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="md:hidden text-2xl text-dark">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
+            <a href="#" class="block py-2 text-dark hover:text-primary">Home</a>
+            <a href="#" class="block py-2 text-dark hover:text-primary">Shop</a>
+            <a href="#" class="block py-2 text-dark hover:text-primary">About</a>
+            <a href="#" class="block py-2 text-dark hover:text-primary">Contact</a>
+            <div class="pt-4 border-t mt-2">
+                <a href="#login-modal" class="block py-2 text-dark hover:text-primary">Login</a>
+                <a href="#signup-modal" class="block py-2 text-dark hover:text-primary">Register</a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
