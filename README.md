@@ -38,7 +38,6 @@ Key inspirations include:
 
 ##  Screenshot
 
-*(Upload a screenshot of your page and update the image link below)*
 
 <p align="center">
   <img src="https://i.postimg.cc/YOUR_IMAGE_LINK.png" alt="Giftly Style Landing Page Screenshot" width="800"/>
