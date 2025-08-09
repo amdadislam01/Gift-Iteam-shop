@@ -20,7 +20,7 @@ A modern and responsive **gift-oriented landing page**, inspired by platforms li
 ##  Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js" alt="Tech Stack" width="180"/>
+  <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js" alt="Tech Stack" width="320"/>
 </p>
 
 ---
