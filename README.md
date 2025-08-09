@@ -40,7 +40,7 @@ Key inspirations include:
 
 
 <p align="center">
-  <img src="https://i.postimg.cc/YOUR_IMAGE_LINK.png" alt="Giftly Style Landing Page Screenshot" width="1000"/>
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/giftly?updatedAt=1754738386672" width="1000"/>
 </p>
 
 ---
